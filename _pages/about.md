@@ -9,8 +9,6 @@ redirect_from:
 
 Hi! I am **Tongxin Zhou**, a **first-year M.S. student** at the **School of Integrated Circuits, Nanjing University (NJU)**. I am advised by **Assoc. Prof. (Research Fellow) Yuxiang Fu** ([website](https://yuxiangfunju.github.io/)). My research direction is **hardware–software co-design for efficient AI systems**, with a strong focus on **AI accelerators**, **hardware-aware model compression** (quantization/sparsity/pruning), and **hardware-friendly dataflow mapping**. I particularly enjoy **engineering-driven prototyping on FPGA with RTL**.
 
-I grew up in **Heze, Shandong**, studied high school in **Foshan, Guangdong**, completed my undergraduate studies in **Shenzhen, Guangdong**, and I am currently based in **Suzhou, Jiangsu**.
-
 ## Research Interests
 My long-term goal is to make large models **efficient, deployable, and hardware-friendly**—while maintaining practical generality. I am especially interested in:
 
@@ -47,12 +45,15 @@ My advisor’s research spans **AI for chip/architecture design automation**, **
 ## Leadership & Service
 - **Class Monitor** (undergraduate)
 - **Head, Secretariat Department**, Graduate Student Union (M.S. program)
-- *(Optional for public display)* **Member of the Communist Party of China (CPC)**  
-  *(If you prefer to avoid sensitive personal details on a public website, you may omit this line.)*
+- **Member of the Communist Party of China (CPC)**
 
 ## English Proficiency
 - **TOEFL iBT:** 80 / 120 (CEFR **B2**)  
   Reading 5.0/6.0, Listening 3.5/6.0, Writing 4.5/6.0, Speaking 3.0/6.0
+- **CET-4:** 550 / 710  
+  Listening 162/249, Reading 204/249, Writing & Translation 184/212
+- **CET-6:** 485 / 710  
+  Listening 155/249, Reading 207/249, Writing & Translation 164/212
 
 ## Opportunities
 I am actively seeking **research internship opportunities** and preparing for **Ph.D. applications abroad**, with a focus on:
