@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-**Chasing Efficiency — in silicon and in life.**  
 **HW/SW Co-Design (FPGA & ASIC) • Hardware-Friendly Dataflows • Model Compression**
 
 Hi! I am **Tongxin Zhou**, a **first-year M.S. student** at the **School of Integrated Circuits, Nanjing University (NJU)**, advised by **Assoc. Prof. (Research Fellow) Yuxiang Fu**.  
