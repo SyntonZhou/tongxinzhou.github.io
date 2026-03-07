@@ -7,56 +7,55 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am **Tongxin Zhou**, a **first-year M.S. student** at the **School of Integrated Circuits, Nanjing University (NJU)**. I am advised by **Assoc. Prof. (Research Fellow) Yuxiang Fu** ([website](https://yuxiangfunju.github.io/)). My research direction is **hardware–software co-design for efficient AI systems**, with a strong focus on **AI accelerators**, **hardware-aware model compression** (quantization/sparsity/pruning), and **hardware-friendly dataflow mapping**. I particularly enjoy **engineering-driven prototyping on FPGA with RTL**.
+**Chasing Efficiency — in silicon and in life.**  
+**HW/SW Co-Design (FPGA & ASIC) • Hardware-Friendly Dataflows • Model Compression**
+
+Hi! I am **Tongxin Zhou**, a **first-year M.S. student** at the **School of Integrated Circuits, Nanjing University (NJU)**, advised by **Assoc. Prof. (Research Fellow) Yuxiang Fu**.  
+My research goal is to make **large models efficient, deployable, and hardware-friendly**, by combining **hardware-aware model compression** (quantization / structured sparsity / pruning) with **architecture and dataflow co-design**, and validating ideas through **FPGA/RTL engineering prototypes**.
+
+I grew up in **Heze (Shandong)**, studied in **Foshan (Guangdong)**, completed my undergraduate studies in **Shenzhen (Guangdong)**, and I am currently based in **Suzhou (Jiangsu)**.
 
 ## Research Interests
-My long-term goal is to make large models **efficient, deployable, and hardware-friendly**—while maintaining practical generality. I am especially interested in:
+I am broadly interested in **AI accelerator architecture** and **hardware–software co-design** for:
+- **Efficient LLM inference**, especially under tight memory/bandwidth constraints
+- **Edge AI & embodied intelligence**, where latency, energy, and robustness matter
+- **Hardware-friendly algorithms and kernels**, including dataflow mapping, tiling/scheduling, and memory hierarchy optimization
+- **FPGA prototyping & RTL implementation**, with an engineering-first mindset toward reproducibility and measurable gains
 
-- **AI accelerator architecture** for LLM inference and edge deployment (dataflow, memory hierarchy, on-chip communication)
-- **Hardware-aware compression**: quantization (INT8/INT4 and beyond), structured sparsity, pruning, and their architectural implications
-- **Hardware-friendly algorithms and kernels**: operator redesign, tiling/scheduling, and mapping under real hardware constraints
-- **FPGA/RTL prototyping** for rapid validation and reproducible evaluation
-- **Edge AI & embodied intelligence** (e.g., perception and decision pipelines with tight compute/memory budgets)
+## Quick Highlights
+- **Ranked 9/871 (Top 1.03%)** in my undergraduate cohort; **GPA 86.17/100**
+- **National Scholarship (China)**; **five scholarships/major awards** in total
+- Hands-on experience across **FPGA/RTL**, **EDA tools**, and **model quantization/deployment**
 
-## Advisor & Lab Context
-My advisor’s research spans **AI for chip/architecture design automation**, **NoC-based multi-core architectures**, **energy-efficient AI chips**, **reconfigurable computing**, and **3D IC design**. I aim to contribute by bridging **algorithmic efficiency** (compression and hardware-friendly formulations) with **architecture and RTL-level implementation**.
+## Selected Projects (Engineering & Research)
+- **FPGA Hardware Processor for Monocular Depth Estimation (Robotic Vision)**  
+  Explored **quantization strategies** and designed an **FPGA acceleration pipeline** for edge deployment; currently improving **real-time streaming** and end-to-end latency.
 
-## Education
-- **M.S. (ongoing)** — School of Integrated Circuits, **Nanjing University**
-- **B.Eng.** — School of Integrated Circuits, **Sun Yat-sen University**
+- **LAV: LoongArch-Based Real-Time Image Task Processing Network Accelerator** *(IC Innovation & Entrepreneurship Competition)*  
+  Proposed and implemented a customized accelerator architecture for real-time vision workloads; contributed to **coding, circuit design, board bring-up, simulation, and live demos**.
 
-## Honors & Awards
-- **National Scholarship (China)** and **five scholarships/awards** in total
-- **Second Prize**, Guangdong Provincial Mathematical Modeling Contest  
-  *“Chemical Composition Analysis Model for Ancient Glass Artifacts Based on K-means Clustering”*
-- **Second Prize**, National Undergraduate Electronic Design Contest (Guangdong Division)  
-  *“Moving Target Control and Tracking System”*
-- **Second Prize**, IC Innovation & Entrepreneurship Competition (South China Region)  
-  *“LAV: A LoongArch-based Real-time Image Task Processing Network Accelerator”*
+- **Low-Power, High-Resolution ΔΣ Modulator for MEMS Capacitive Accelerometers** *(Team Lead)*  
+  Designed and validated a delta–sigma modulator achieving **16-bit effective resolution**, **1.67 μW** power, and **101 dB** quantization SNR.
 
-## Selected Projects
-- **LoongArch-based real-time image task processing network accelerator (LAV)**  
-  Focus: architecture design and acceleration for real-time vision workloads
-- **Low-power, high-resolution Delta–Sigma modulator for MEMS capacitive accelerometers** *(team lead)*  
-  Focus: mixed-signal/IC-oriented system design with low-power constraints
-- **Hardware processor for depth estimation in robotic vision systems**  
-  Focus: mapping vision algorithms to hardware-friendly pipelines
+- **Chinese LLM Construction via Parameter Fusion** *(Undergraduate research program)*  
+  Conducted iterative experiments on merging/fusing model parameters and evaluated performance trends under advisor guidance.
 
-## Leadership & Service
-- **Class Monitor** (undergraduate)
-- **Head, Secretariat Department**, Graduate Student Union (M.S. program)
-- **Member of the Communist Party of China (CPC)**
+## Honors & Awards (Selected)
+- **National Scholarship**, 2023  
+- **Second Prize (South China Region)**, National College Student IC Innovation & Entrepreneurship Competition, 2024  
+- **Second Prize (Guangdong Division)**, National Mathematical Modeling Contest, 2022  
+- **Second Prize (Guangdong Division)**, National Undergraduate Electronic Design Contest, 2023  
+- Multiple university-level scholarships and recognitions (first-class/special scholarships, outstanding student honors)
+
+## Leadership
+I served as **Class Monitor** throughout my undergraduate years and currently serve as **Head of the Secretariat Department** in the Graduate Student Union. I enjoy organizing teams and delivering complex projects under tight timelines.
 
 ## English Proficiency
-- **TOEFL iBT:** 80 / 120 (CEFR **B2**)  
+- **TOEFL iBT:** 80/120 (CEFR **B2**)  
   Reading 5.0/6.0, Listening 3.5/6.0, Writing 4.5/6.0, Speaking 3.0/6.0
-- **CET-4:** 550 / 710  
-  Listening 162/249, Reading 204/249, Writing & Translation 184/212
-- **CET-6:** 485 / 710  
-  Listening 155/249, Reading 207/249, Writing & Translation 164/212
+- **CET-4:** 550/710 (L 162, R 204, W&T 184)  
+- **CET-6:** 485/710 (L 155, R 207, W&T 164)
 
 ## Opportunities
-I am actively seeking **research internship opportunities** and preparing for **Ph.D. applications abroad**, with a focus on:
-**AI accelerators, hardware–software co-design, FPGA/RTL prototyping, and efficient LLM inference for edge/embodied AI**.
-
-If you would like to discuss collaboration or opportunities, feel free to contact me via my university email.
+I am actively seeking **research internship opportunities** and preparing for **Ph.D. applications abroad**.  
+If my interests overlap with yours—**AI accelerators, HW/SW co-design, FPGA/RTL prototyping, and efficient LLM inference for edge/embodied AI**—feel free to reach out via **502025730018@smail.nju.edu.cn**.
