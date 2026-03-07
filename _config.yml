@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Tongxin Zhou"
-  pronouns         : "he/him"
+  pronouns         : 
   bio              : "First-year M.S. student at Nanjing University (School of Integrated Circuits). My interests are AI accelerator and computer architecture design with HW/SW co-design, hardware-aware compression (quantization/sparsity/pruning), and hardware-friendly dataflow mapping. I enjoy building engineering prototypes, especially on FPGA with RTL."
   location         : "Suzhou, Jiangsu, P.R. China"
   employer         : "Nanjing University"
