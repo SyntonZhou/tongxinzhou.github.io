@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Tongxin Zhou"
-  pronouns         :
+  pronouns         : "he/him"
   bio              : "First-year M.S. student at Nanjing University (School of Integrated Circuits). My interests are AI accelerator and computer architecture design with HW/SW co-design, hardware-aware compression (quantization/sparsity/pruning), and hardware-friendly dataflow mapping. I enjoy building engineering prototypes, especially on FPGA with RTL."
   location         : "Suzhou, Jiangsu, P.R. China"
   employer         : "Nanjing University"
@@ -35,7 +35,7 @@ author:
   # Academic websites
   academia         :
   arxiv            :
-  googlescholar    : "TODO_GOOGLE_SCHOLAR_URL"
+  googlescholar    : 
   inspire-hep      :
   impactstory      :
   orcid            : "https://orcid.org/0009-0008-2045-1796"
@@ -65,21 +65,21 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "Tongxin Zhou"
   mastodon         :
   medium           :
   pinterest        :
   soundcloud       :
   steam            :
   telegram         :
-  tumblr           :
+  tumblr           : 
   twitter          : "SyntonChou"
   vine             :
   weibo            :
   wikipedia        :
   xing             :
   youtube          :
-  zhihu            : "Ness233"
+  zhihu            :
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
