@@ -22,7 +22,7 @@ I am broadly interested in **AI accelerator architecture** and **hardware/softwa
 - **FPGA prototyping and RTL implementation**, with an engineering-first mindset toward reproducibility and measurable system-level gains
 
 ## Quick Highlights
-- **Ranked 9/871 (Top 1.03%)** in my undergraduate cohort; **GPA 86.17/100**
+- **Ranked 7/87 (Top 10%)** in my undergraduate cohort; **GPA 86.17/100**
 - Recipient of the **National Scholarship (China)** and multiple competitive academic awards
 - Hands-on experience in **FPGA/RTL development**, **EDA tools**, and **model quantization/deployment**
 
@@ -40,14 +40,14 @@ I am broadly interested in **AI accelerator architecture** and **hardware/softwa
   Conducted iterative experiments on **model parameter fusion/merging** for Chinese large language models and evaluated performance trends under advisor guidance.
 
 ## Honors & Awards (Selected)
-- **National Scholarship**, 2023  
+- **National Scholarship** (1 recipient only for the school), 2023  
 - **Second Prize (South China Region)**, National College Student IC Innovation & Entrepreneurship Competition, 2024  
 - **Second Prize (Guangdong Division)**, National Undergraduate Electronic Design Contest, 2023  
 - **Second Prize (Guangdong Division)**, National Mathematical Modeling Contest, 2022  
 - Multiple university-level scholarships and recognitions, including **first-class/special scholarships** and **outstanding student honors**
 
 ## Leadership
-I served as **Class Monitor** throughout my undergraduate years and currently serve as **Head of the Secretariat Department** in the Graduate Student Union. These experiences strengthened my ability to coordinate teams, manage projects, and deliver results under tight timelines.
+I served as **Class Monitor** throughout my undergraduate years, and currently serve as **Deputy Secretary of the Master's Party Branch** of the school and **Head of the Secretariat Department** in the Graduate Student Union. These experiences strengthened my ability to coordinate teams, manage projects, and deliver results under tight timelines.
 
 ## English Proficiency
 - **TOEFL iBT:** 80/120 (**CEFR B2**)  
@@ -55,5 +55,5 @@ I served as **Class Monitor** throughout my undergraduate years and currently se
 - **CET-6:** 485/710  
 
 ## Opportunities
-I am actively seeking **research internship opportunities** and preparing for future **Ph.D. applications abroad**.  
+I am actively seeking **research internship opportunities** and preparing for future **Ph.D. applications**.  
 If your interests overlap with mine in **AI accelerators, hardware/software co-design, FPGA/RTL prototyping, and efficient LLM inference for edge or embodied AI systems**, please feel free to reach out via **502025730018@smail.nju.edu.cn**.
