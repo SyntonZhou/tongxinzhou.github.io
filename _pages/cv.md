@@ -114,6 +114,6 @@ English Proficiency
 * CET-4: 550/710
 * CET-6: 485/710
 
-References
+Referees
 ======
-Available upon request.
+Available upon request — I will do my best to contact them and arrange references.
