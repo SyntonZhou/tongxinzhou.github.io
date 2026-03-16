@@ -1,19 +1,19 @@
 ---
-title: "Dynamic Quantization Techniques in Mixture-of-Experts Models"
+title: "Neural Network Dynamic Quantization Technique Based on Output Activation Distribution"
 collection: publications
-category: published
+category: accepted
 permalink: /publication/2025-08-01-dynamic-quantization-techniques-in-moe-models
-excerpt: "Stage-aware quantization strategies for Mixture-of-Experts models across the prefill and decode phases."
+excerpt: "Dynamic quantization approach for neural networks based on output activation distribution."
 date: 2025-08-01
-venue: 'Chinese Journal of Electronics'
+venue: 'Journal of Nanjing University (Accepted)'
 paperurl: ''
 bibtexurl: ''
-citation: 'Author A, Author B, Author C, Tongxin Zhou. (2025). &quot;Dynamic Quantization Techniques in Mixture-of-Experts Models.&quot; <i>Chinese Journal of Electronics</i>.'
+citation: 'Peihong Li, Bang He, Tongxin Zhou, Yuxiang Fu. &quot;Neural Network Dynamic Quantization Technique Based on Output Activation Distribution.&quot; <i>Journal of Nanjing University (Accepted)</i>.'
 ---
 
-This work investigates weight distributions in **Mixture-of-Experts (MoE)** models and develops **stage-aware quantization strategies** for both the **prefill** and **decode** phases. By adopting a progressive search procedure, the method identifies quantization configurations with improved efficiency–accuracy trade-offs for deployable inference.
+This work proposes a **neural network dynamic quantization technique** based on the statistical characteristics of **output activation distribution**, aiming to improve the efficiency–accuracy trade-off for model deployment.
 
-**My role:** Fourth author.  
-**Status:** Published in *Chinese Journal of Electronics*.
+**My role:** Third author.  
+**Status:** Accepted for publication in *Journal of Nanjing University*.
 
 More details, including DOI and BibTeX, will be added once the final bibliographic information is available.
