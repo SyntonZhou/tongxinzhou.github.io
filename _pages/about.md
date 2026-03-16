@@ -46,9 +46,6 @@ I am broadly interested in **AI accelerator architecture** and **hardware/softwa
 - **Second Prize (Guangdong Division)**, National Mathematical Modeling Contest, 2022  
 - Multiple university-level scholarships and recognitions, including **first-class/special scholarships** and **outstanding student honors**
 
-## Leadership
-I served as **Class Monitor** throughout my undergraduate years, and currently serve as **Deputy Secretary of the Master's Party Branch** of the school and **Head of the Secretariat Department** in the Graduate Student Union. These experiences strengthened my ability to coordinate teams, manage projects, and deliver results under tight timelines.
-
 ## English Proficiency
 - **TOEFL iBT:** 80/120 (**CEFR B2**)  
 - **CET-4:** 550/710  
