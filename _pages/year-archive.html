@@ -1,19 +1,20 @@
 ---
-layout: archive
+layout: academic
+title: "Campus Notes"
 permalink: /year-archive/
-title: "Blog posts"
-author_profile: true
+lang: en
 redirect_from:
-  - /wordpress/blog-posts/
+  - /posts/2026/09/graduate-representative-speech/
 ---
-
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="shell document">
+  <h1>Campus Notes</h1>
+  <section class="section">
+    <h2>Welcoming the incoming graduate class</h2>
+    <p class="period">2025 · Nanjing University</p>
+    <p>I spoke as an incoming graduate student representative at the School of Integrated Circuits’ opening session.</p>
+    <p lang="zh-Hans">2025 年入学时，我在南京大学集成电路学院开学第一课上作为研究生新生代表发言。</p>
+    <figure class="note-photo">
+      <img src="{{ '/images/nju-ic-first-class-speech.jpg' | relative_url }}" width="1080" height="720" alt="Tongxin Zhou speaking at the opening session" loading="lazy">
+    </figure>
+  </section>
+</div>

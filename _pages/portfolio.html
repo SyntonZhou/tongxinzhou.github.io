@@ -1,14 +1,16 @@
 ---
-layout: archive
-title: "Portfolio"
+layout: academic
+title: "Research Projects"
+description: "Tongxin Zhou's research projects in processor design, efficient edge inference, and memory architectures."
 permalink: /portfolio/
-author_profile: true
+lang: en
+redirect_from:
+  - /portfolio/portfolio-1/
+  - /portfolio/portfolio-2/
+  - /portfolio/portfolio-3/
+  - /portfolio/portfolio-4/
 ---
-
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<div class="shell document">
+  <h1>Research Projects</h1>
+  {% include academic-projects.html lang="en" %}
+</div>

@@ -1,0 +1,16 @@
+{% assign project_lang = include.lang | default: "en" %}
+<div class="project-list">
+  {% for project in site.data.academic.projects %}
+    <article class="project">
+      <div class="project-header">
+        <h3>{{ project.title[project_lang] | escape }}</h3>
+        <p class="period">{{ project.period[project_lang] | escape }}</p>
+      </div>
+      <p class="project-role">{{ project.role[project_lang] | escape }}</p>
+      <p>{{ project.summary[project_lang] | escape }}</p>
+      {% if project.link %}
+        <a class="inline-link" href="{{ project.link.url | escape }}">{{ project.link.label[project_lang] | escape }} <span aria-hidden="true">↗</span></a>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

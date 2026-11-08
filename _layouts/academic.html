@@ -1,0 +1,64 @@
+<!doctype html>
+{% assign lang = page.lang | default: "en" %}
+{% assign zh = false %}
+{% assign home = "/" %}
+{% assign cv = "/cv/" %}
+{% assign language_switch = "/zh/" %}
+{% if lang == "zh" %}
+  {% assign zh = true %}
+  {% assign home = "/zh/" %}
+  {% assign cv = "/zh/cv/" %}
+  {% assign language_switch = "/" %}
+{% endif %}
+{% if page.permalink == "/cv/" %}
+  {% assign language_switch = "/zh/cv/" %}
+{% elsif page.permalink == "/zh/cv/" %}
+  {% assign language_switch = "/cv/" %}
+{% endif %}
+<html lang="{% if zh %}zh-Hans{% else %}en{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title | escape }}{% if page.title != site.title %} · {{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% if page.permalink == "/" or page.permalink == "/zh/" %}
+    <link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+    <link rel="alternate" hreflang="zh-Hans" href="{{ '/zh/' | absolute_url }}">
+  {% endif %}
+  <link rel="icon" href="{{ '/images/tz-mark.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">{% if zh %}跳到正文{% else %}Skip to content{% endif %}</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="{{ home | relative_url }}">
+        <span class="monogram" aria-hidden="true">TZ</span>
+        <span>{% if zh %}周彤昕{% else %}Tongxin Zhou{% endif %}</span>
+      </a>
+      <nav class="site-nav" aria-label="{% if zh %}主导航{% else %}Main navigation{% endif %}">
+        <a href="{{ home | relative_url }}#research">{% if zh %}研究方向{% else %}Research{% endif %}</a>
+        <a href="{{ home | relative_url }}#publications">{% if zh %}论文{% else %}Publications{% endif %}</a>
+        <a href="{{ home | relative_url }}#projects">{% if zh %}项目{% else %}Projects{% endif %}</a>
+        <a href="{{ cv | relative_url }}"{% if page.permalink == cv %} aria-current="page"{% endif %}>{% if zh %}学术简历{% else %}CV{% endif %}</a>
+        <a class="language-link" href="{{ language_switch | relative_url }}" lang="{% if zh %}en{% else %}zh-Hans{% endif %}" hreflang="{% if zh %}en{% else %}zh-Hans{% endif %}">{% if zh %}English{% else %}中文{% endif %}</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <span>{% if zh %}周彤昕 · 南京大学{% else %}Tongxin Zhou · Nanjing University{% endif %}</span>
+      <div class="footer-links">
+        <a href="mailto:{{ site.author.email }}">{% if zh %}邮件{% else %}Email{% endif %}</a>
+        <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+        <a href="{{ site.author.orcid }}">ORCID</a>
+        <a href="{{ '/year-archive/' | relative_url }}">{% if zh %}校园纪事{% else %}Campus Notes{% endif %}</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

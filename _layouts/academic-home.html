@@ -1,0 +1,70 @@
+---
+layout: academic
+---
+{% assign lang = page.lang | default: "en" %}
+{% assign academic = site.data.academic %}
+<section class="hero" aria-labelledby="home-title">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ academic.intro.headline[lang] | escape }}</p>
+      <h1 id="home-title">{% if lang == "zh" %}周彤昕{% else %}Tongxin Zhou{% endif %}</h1>
+      <p class="alternate-name" lang="{% if lang == 'zh' %}en{% else %}zh-Hans{% endif %}">{% if lang == "zh" %}Tongxin Zhou{% else %}周彤昕{% endif %}</p>
+      <p class="affiliation">{{ academic.intro.affiliation[lang] | escape }}</p>
+      <p class="hero-summary">{{ academic.intro.summary[lang] | escape }}</p>
+      <p class="advisor">{% if lang == "zh" %}导师{% else %}Advisor{% endif %}<a href="https://ic.nju.edu.cn/af/87/c56672a634759/page.htm">{{ academic.intro.advisor[lang] | escape }}</a></p>
+      <div class="hero-links">
+        <a class="button" href="mailto:{{ site.author.email }}">{% if lang == "zh" %}邮件联系{% else %}Contact{% endif %}<span aria-hidden="true">↗</span></a>
+        {% if lang == "zh" %}
+          <a class="button button-outline" href="{{ '/zh/cv/' | relative_url }}">学术简历</a>
+        {% else %}
+          <a class="button button-outline" href="{{ '/cv/' | relative_url }}">Academic CV</a>
+        {% endif %}
+      </div>
+    </div>
+    <figure class="portrait">
+      <img src="{{ '/images/profile.png' | relative_url }}" width="1080" height="1080" alt="{% if lang == 'zh' %}周彤昕{% else %}Tongxin Zhou{% endif %}">
+      <figcaption><span>{% if lang == "zh" %}南京大学{% else %}Nanjing University{% endif %}</span><span>{% if lang == "zh" %}苏州，中国{% else %}Suzhou, China{% endif %}</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<div class="shell">
+  <section id="research" class="section section-research" aria-labelledby="research-title">
+    <header class="section-heading">
+      <span class="section-index" aria-hidden="true">01</span>
+      <h2 id="research-title">{% if lang == "zh" %}研究方向{% else %}Research Interests{% endif %}</h2>
+    </header>
+    <div class="direction-grid">
+      {% for item in academic.directions %}
+        <article class="direction">
+          <h3>{{ item.title[lang] | escape }}</h3>
+          <p>{{ item.summary[lang] | escape }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="publications" class="section" aria-labelledby="publications-title">
+    <header class="section-heading">
+      <span class="section-index" aria-hidden="true">02</span>
+      <h2 id="publications-title">{% if lang == "zh" %}代表论文{% else %}Selected Publications{% endif %}</h2>
+    </header>
+    {% include academic-publications.html lang=lang %}
+  </section>
+
+  <section id="projects" class="section" aria-labelledby="projects-title">
+    <header class="section-heading">
+      <span class="section-index" aria-hidden="true">03</span>
+      <h2 id="projects-title">{% if lang == "zh" %}科研项目{% else %}Research Projects{% endif %}</h2>
+    </header>
+    {% include academic-projects.html lang=lang %}
+  </section>
+
+  <section class="section section-education" aria-labelledby="education-title">
+    <header class="section-heading">
+      <span class="section-index" aria-hidden="true">04</span>
+      <h2 id="education-title">{% if lang == "zh" %}教育经历{% else %}Education{% endif %}</h2>
+    </header>
+    {% include academic-records.html lang=lang records=academic.education %}
+  </section>
+</div>

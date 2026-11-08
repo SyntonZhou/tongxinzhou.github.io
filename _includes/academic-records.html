@@ -1,0 +1,15 @@
+{% assign record_lang = include.lang | default: "en" %}
+<ul class="record-list">
+  {% for item in include.records %}
+    <li class="record">
+      <div>
+        <h3>{{ item.title[record_lang] | escape }}</h3>
+        <p>{{ item.detail[record_lang] | escape }}</p>
+        {% if item.link %}
+          <a class="inline-link" href="{{ item.link.url | escape }}">{{ item.link.label[record_lang] | escape }} <span aria-hidden="true">↗</span></a>
+        {% endif %}
+      </div>
+      <p class="period">{{ item.period[record_lang] | escape }}</p>
+    </li>
+  {% endfor %}
+</ul>

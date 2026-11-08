@@ -1,0 +1,187 @@
+intro:
+  headline:
+    en: "Computer architecture and hardware–software co-design"
+    zh: "计算机体系结构与软硬件协同设计"
+  affiliation:
+    en: "Master’s student, School of Integrated Circuits, Nanjing University"
+    zh: "南京大学集成电路学院硕士研究生"
+  summary:
+    en: "I work on RISC-V processor design and hardware–software co-design for edge inference. I am interested in how memory organization and data movement shape processor architecture, particularly in processing-in-memory and 3D-integrated systems."
+    zh: "我目前从事 RISC-V 处理器设计与边缘推理的软硬件协同研究，关注存储组织与数据搬运如何影响处理器架构，尤其对存算一体与三维集成感兴趣。"
+  advisor:
+    en: "Yuxiang Fu"
+    zh: "傅玉祥"
+
+directions:
+  - title:
+      en: "RISC-V processor architecture"
+      zh: "RISC-V 处理器架构"
+    summary:
+      en: "Processor microarchitecture, RTL design, and system-level evaluation."
+      zh: "处理器微架构、RTL 设计与系统级评估。"
+  - title:
+      en: "Memory-centric computing and 3D integration"
+      zh: "存算融合与三维集成"
+    summary:
+      en: "Processing-in-memory and cross-die memory hierarchies for data-intensive workloads."
+      zh: "面向数据密集型负载的存算一体架构与跨裸片存储层次。"
+  - title:
+      en: "Hardware–software co-design for edge inference"
+      zh: "面向边缘推理的软硬件协同"
+    summary:
+      en: "Co-designing model compression, dataflow, and accelerator hardware for efficient inference, with FPGA validation."
+      zh: "协同设计模型压缩、数据流与加速器硬件，并通过 FPGA 验证推理系统。"
+
+publications:
+  - id: ax-agent
+    status: {en: "Accepted", zh: "已录用"}
+    title:
+      en: "AX-AGENT: Contract-Driven Closed-Loop Framework for Error-Bounded PPA-Aware Approximate RTL Generation"
+      zh: "AX-AGENT: Contract-Driven Closed-Loop Framework for Error-Bounded PPA-Aware Approximate RTL Generation"
+    authors:
+      - {en: "Chenyang Dai", zh: "Chenyang Dai"}
+      - {en: "Tongxin Zhou", zh: "周彤昕", self: true}
+      - {en: "Meng Xiang", zh: "Meng Xiang"}
+      - {en: "Yijin Liu", zh: "Yijin Liu"}
+      - {en: "Haroon Waris", zh: "Haroon Waris"}
+      - {en: "Li Li", zh: "李丽"}
+      - {en: "Yuxiang Fu", zh: "傅玉祥"}
+    venue:
+      en: "32nd Asia and South Pacific Design Automation Conference (ASP-DAC 2027)"
+      zh: "第 32 届亚太设计自动化会议（ASP-DAC 2027）"
+    links:
+      - label: {en: "Technical program", zh: "会议议程"}
+        url: "https://easychair.org/smart-program/ASP-DAC2027/2027-01-27.html"
+      - label: {en: "Acceptance list · Paper 0746", zh: "录用名单 · 编号 0746"}
+        url: "https://www.aspdac.com/aspdac2027/author/accepted_list/index.html"
+  - id: ogas
+    status: {en: "Published", zh: "已发表"}
+    title:
+      en: "OGAS: Output⁃activation guided pruning with adaptive sparsity for large language model"
+      zh: "基于输出激活引导的大模型通道级自适应稀疏度剪枝方法"
+    authors:
+      - {en: "Peihong Li", zh: "李沛鸿"}
+      - {en: "Bang He", zh: "贺傍"}
+      - {en: "Tongxin Zhou", zh: "周彤昕", self: true}
+      - {en: "Li Li", zh: "李丽"}
+      - {en: "Yuxiang Fu", zh: "傅玉祥"}
+    venue:
+      en: "Journal of Nanjing University (Natural Science), 62(3), 422–433, 2026"
+      zh: "《南京大学学报（自然科学版）》第 62 卷第 3 期，422–433 页，2026 年"
+    links:
+      - label: {en: "Journal article", zh: "期刊原文"}
+        url: "https://jns.nju.edu.cn/CN/10.13232/j.cnki.jnju.2026.03.008"
+
+projects:
+  - title:
+      en: "Next-generation RISC-V CPU development"
+      zh: "下一代 RISC-V CPU 联合研发"
+    role:
+      en: "Student project lead · University–industry collaboration"
+      zh: "学生第一负责人 · 校企联合研发"
+    period:
+      en: "Apr 2026–present"
+      zh: "2026 年 4 月至今"
+    summary:
+      en: "Lead the student team’s research planning and coordinate architecture evaluation and design work across the participating groups."
+      zh: "牵头制定学生团队研发路线，协调各课题组的架构评估与设计分工。"
+  - title:
+      en: "Hardware–software co-optimization for edge AI inference"
+      zh: "边缘端大模型加速芯片软硬件协同优化"
+    role:
+      en: "Suzhou municipal R&D project · Research contributor"
+      zh: "苏州市关键核心技术“揭榜挂帅”攻关项目 · 项目成员"
+    period:
+      en: "Since Sep 2024"
+      zh: "自 2024 年 9 月参与"
+    summary:
+      en: "Helped take an edge multimodal inference prototype from model compression and accelerator design through board-level validation."
+      zh: "参与边缘端多模态推理原型研发，工作涵盖模型压缩、加速器模块设计与板级验证。"
+    link:
+      label: {en: "Municipal project notice", zh: "苏州市科技局项目公示"}
+      url: "https://kjj.suzhou.gov.cn/szkj/tzgg/202410/ee4a1905f2df436398d3fbd95cc2789e.shtml"
+  - title:
+      en: "Cross-die memory and 3D architectures"
+      zh: "跨裸片存储与三维体系结构"
+    role:
+      en: "Architecture research"
+      zh: "体系结构研究"
+    period:
+      en: "Ongoing"
+      zh: "进行中"
+    summary:
+      en: "Explore how cross-die and vertically integrated memory affect processor data access and memory hierarchy design."
+      zh: "研究跨裸片存储和垂直集成存储对处理器访存与存储层次设计的影响。"
+
+education:
+  - title: {en: "Nanjing University", zh: "南京大学"}
+    detail:
+      en: "Master’s program in Integrated Circuit Science and Engineering, School of Integrated Circuits"
+      zh: "集成电路学院，集成电路科学与工程专业硕士研究生"
+    period: {en: "Sep 2025–Jun 2028 (expected)", zh: "2025 年 9 月至 2028 年 6 月（预计）"}
+  - title: {en: "Sun Yat-sen University", zh: "中山大学"}
+    detail:
+      en: "B.Eng. in Microelectronics Science and Engineering, School of Integrated Circuits"
+      zh: "集成电路学院，微电子科学与工程专业，工学学士"
+    period: {en: "Sep 2021–Jun 2025", zh: "2021 年 9 月至 2025 年 6 月"}
+
+undergraduate:
+  - title:
+      en: "Model merging for Chinese large language models"
+      zh: "国产大模型合并算法分析"
+    detail:
+      en: "Undergraduate thesis, Sun Yat-sen University. Recognized as an Excellent Graduation Project."
+      zh: "中山大学本科毕业设计，获评优秀毕业设计。"
+    period: {en: "2025", zh: "2025 年"}
+  - title:
+      en: "Hardware acceleration for robotic depth estimation"
+      zh: "面向机器人视觉的深度估计加速器设计"
+    detail:
+      en: "Project contributor, Undergraduate Innovation and Training Program."
+      zh: "大学生创新训练项目，核心成员。"
+    period: {en: "2024", zh: "2024 年"}
+  - title:
+      en: "Delta–sigma modulator design for MEMS accelerometers"
+      zh: "面向 MEMS 加速度计的 Delta–Sigma 调制器设计"
+    detail:
+      en: "Project lead, Undergraduate Innovation and Training Program. Designed and simulated a high-resolution analog modulator."
+      zh: "大学生创新训练项目，项目负责人。完成高分辨率模拟调制器设计与仿真。"
+    period: {en: "2023", zh: "2023 年"}
+
+honors:
+  - title: {en: "First-Class Graduate Academic Scholarship", zh: "研究生学业奖学金一等奖"}
+    detail: {en: "Nanjing University", zh: "南京大学"}
+    period: {en: "2025–2026 and 2026–2027", zh: "2025–2026、2026–2027 学年"}
+  - title: {en: "National Scholarship for Undergraduates", zh: "本专科生国家奖学金"}
+    detail: {en: "Sun Yat-sen University", zh: "中山大学"}
+    period: {en: "2022–2023 academic year", zh: "2022–2023 学年"}
+  - title: {en: "Second Prize, Guangdong Division", zh: "广东赛区二等奖"}
+    detail: {en: "National Undergraduate Electronic Design Contest", zh: "全国大学生电子设计竞赛"}
+    period: {en: "2023", zh: "2023 年"}
+  - title: {en: "Second Prize, Guangdong Division", zh: "广东省分赛二等奖"}
+    detail: {en: "China Undergraduate Mathematical Contest in Modeling", zh: "全国大学生数学建模竞赛"}
+    period: {en: "2022", zh: "2022 年"}
+
+service:
+  - title: {en: "Peer mentor for incoming undergraduates", zh: "本科新生朋辈导师"}
+    detail: {en: "Nanjing University", zh: "南京大学"}
+    period: {en: "Fall 2026", zh: "2026 年秋季"}
+  - title: {en: "Student portrait event organizer", zh: "学生证件照公益活动组织者"}
+    detail:
+      en: "Helped organize a free portrait event for students at Nanjing University’s Suzhou campus."
+      zh: "参与组织南京大学苏州校区免费证件照拍摄活动。"
+    period: {en: "Apr 2026", zh: "2026 年 4 月"}
+    link:
+      label: {en: "School report", zh: "学院报道"}
+      url: "https://ic.nju.edu.cn/bb/01/c63927a834305/page.htm"
+  - title:
+      en: "Secretariat lead, inaugural Graduate Student Congress"
+      zh: "首届研究生代表大会秘书部负责人"
+    detail: {en: "School of Integrated Circuits, Nanjing University", zh: "南京大学集成电路学院"}
+    period: {en: "Dec 2025", zh: "2025 年 12 月"}
+    link:
+      label: {en: "School report", zh: "学院报道"}
+      url: "https://ic.nju.edu.cn/3d/bd/c63085a802237/page.htm"
+  - title: {en: "Undergraduate class representative", zh: "本科班长"}
+    detail: {en: "School of Integrated Circuits, Sun Yat-sen University", zh: "中山大学集成电路学院"}
+    period: {en: "2021–2025", zh: "2021–2025 年"}
