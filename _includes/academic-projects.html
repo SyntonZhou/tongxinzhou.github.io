@@ -6,7 +6,7 @@
         <h3>{{ project.title[project_lang] | escape }}</h3>
         <p class="period">{{ project.period[project_lang] | escape }}</p>
       </div>
-      <p class="project-role">{{ project.role[project_lang] | escape }}</p>
+      <p class="project-role">{{ project.role[project_lang] | escape }}{% if project.partner %} · <strong class="project-partner">{{ project.partner[project_lang] | escape }}</strong>{% endif %}</p>
       <p>{{ project.summary[project_lang] | escape }}</p>
       {% if project.link %}
         <a class="inline-link" href="{{ project.link.url | escape }}">{{ project.link.label[project_lang] | escape }} <span aria-hidden="true">↗</span></a>
@@ -14,3 +14,7 @@
     </article>
   {% endfor %}
 </div>
+{% if include.show_undergraduate %}
+  <p class="project-subheading">{% if project_lang == "zh" %}本科科研{% else %}Undergraduate Research{% endif %}</p>
+  {% include academic-records.html lang=project_lang records=site.data.academic.undergraduate %}
+{% endif %}

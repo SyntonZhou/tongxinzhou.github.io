@@ -47,7 +47,7 @@ layout: academic
   <section id="publications" class="section" aria-labelledby="publications-title">
     <header class="section-heading">
       <span class="section-index" aria-hidden="true">02</span>
-      <h2 id="publications-title">{% if lang == "zh" %}代表论文{% else %}Selected Publications{% endif %}</h2>
+      <h2 id="publications-title">{% if lang == "zh" %}论文{% else %}Publications &amp; Manuscripts{% endif %}</h2>
     </header>
     {% include academic-publications.html lang=lang %}
   </section>
@@ -57,7 +57,7 @@ layout: academic
       <span class="section-index" aria-hidden="true">03</span>
       <h2 id="projects-title">{% if lang == "zh" %}科研项目{% else %}Research Projects{% endif %}</h2>
     </header>
-    {% include academic-projects.html lang=lang %}
+    {% include academic-projects.html lang=lang show_undergraduate=true %}
   </section>
 
   <section class="section section-education" aria-labelledby="education-title">

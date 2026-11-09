@@ -71,47 +71,181 @@ publications:
     links:
       - label: {en: "Journal article", zh: "期刊原文"}
         url: "https://jns.nju.edu.cn/CN/10.13232/j.cnki.jnju.2026.03.008"
+  - id: flexvlm
+    status: {en: "Under review", zh: "在审"}
+    title:
+      en: "FlexVLM: A Precision-Flexible NPU for Edge Vision-Language Inference"
+      zh: "FlexVLM: A Precision-Flexible NPU for Edge Vision-Language Inference"
+    authorship: {en: "Co-first author, listed first", zh: "共同第一作者，署名第一"}
+    venue: {en: "DAC 2027", zh: "DAC 2027"}
+  - id: marshal
+    status: {en: "Under review", zh: "在审"}
+    title:
+      en: "MARSHAL: Minimal-Sufficient Runtime Control for Heterogeneous FeFET-CIM Accelerators"
+      zh: "MARSHAL: Minimal-Sufficient Runtime Control for Heterogeneous FeFET-CIM Accelerators"
+    authorship: {en: "First author", zh: "第一作者"}
+    venue: {en: "ISCA 2027", zh: "ISCA 2027"}
+  - id: booth-noc
+    status: {en: "Under review", zh: "在审"}
+    title:
+      en: "An Arithmetic-Architecture Co-Design of Significance-Aware Approximate Booth Multipliers and Heterogeneous NoC Accelerators for CNNs"
+      zh: "An Arithmetic-Architecture Co-Design of Significance-Aware Approximate Booth Multipliers and Heterogeneous NoC Accelerators for CNNs"
+    authorship: {en: "Third author", zh: "第三作者"}
+    venue: {en: "IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I)", zh: "IEEE Transactions on Circuits and Systems I: Regular Papers（TCAS-I）"}
+  - id: near-memory-3d
+    status: {en: "Under review", zh: "在审"}
+    title:
+      en: "A Task-Adaptive Reconfigurable 3D Near-Memory Logic Tier for End-to-End Compact LLM Inference"
+      zh: "A Task-Adaptive Reconfigurable 3D Near-Memory Logic Tier for End-to-End Compact LLM Inference"
+    authorship: {en: "Third author", zh: "第三作者"}
+    venue: {en: "ISCAS 2027", zh: "ISCAS 2027"}
+  - id: integrating-pim
+    status: {en: "Under review", zh: "在审"}
+    title:
+      en: "Integrating Processing-in-Memory: Macro Control, Data Placement, and Workload Performance"
+      zh: "Integrating Processing-in-Memory: Macro Control, Data Placement, and Workload Performance"
+    authorship: {en: "First author", zh: "第一作者"}
+    venue: {en: "ACM Computing Surveys (CSUR)", zh: "ACM Computing Surveys（CSUR）"}
+  - id: duetvla
+    status: {en: "In preparation", zh: "准备投稿"}
+    title:
+      en: "DuetVLA: A Memory-Centric Vision–Language–Action FPGA Accelerator with Deadline-Aware Hierarchical Control"
+      zh: "DuetVLA: A Memory-Centric Vision–Language–Action FPGA Accelerator with Deadline-Aware Hierarchical Control"
+    authorship: {en: "Planned first author", zh: "拟第一作者"}
+    venue: {en: "Target venue: IEEE FCCM", zh: "目标会议 IEEE FCCM"}
+  - id: posit8
+    status: {en: "In preparation", zh: "准备投稿"}
+    title:
+      en: "A Posit8 Transformer Accelerator on FPGAs"
+      zh: "A Posit8 Transformer Accelerator on FPGAs"
+    authorship: {en: "Planned third author", zh: "拟第三作者"}
+  - id: pdtm
+    status: {en: "In preparation", zh: "准备投稿"}
+    title:
+      en: "Collaborative Design of PDTM Based on Throttling-Concerned LSTM and MPC in Thermal-aware 3D NoC-based Multicore Systems"
+      zh: "Collaborative Design of PDTM Based on Throttling-Concerned LSTM and MPC in Thermal-aware 3D NoC-based Multicore Systems"
+    authorship: {en: "Planned second author", zh: "拟第二作者"}
+    venue:
+      en: "Target journal: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)"
+      zh: "目标期刊 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems（TCAD）"
 
 projects:
   - title:
-      en: "Next-generation RISC-V CPU development"
-      zh: "下一代 RISC-V CPU 联合研发"
+      en: "Joint R&D on a Next-Generation RISC-V CPU and Joint Development and Implementation of a RISC-V Curriculum"
+      zh: "下一代RISC-V CPU联合研发与RISC-V课程体系联合开发与实践"
     role:
       en: "Student project lead · University–industry collaboration"
       zh: "学生第一负责人 · 校企联合研发"
+    partner: {en: "Lanxin Computing", zh: "蓝芯算力（深圳）科技有限公司"}
     period:
       en: "Apr 2026–present"
       zh: "2026 年 4 月至今"
     summary:
-      en: "Lead the student team’s research planning and coordinate architecture evaluation and design work across the participating groups."
-      zh: "牵头制定学生团队研发路线，协调各课题组的架构评估与设计分工。"
+      en: "Lead the student team’s research planning, technical coordination with industry, and joint development of the CPU and curriculum."
+      zh: "牵头拟定研发路线、组织校企技术对接，协调跨课题组的处理器研发和课程实践。"
   - title:
-      en: "Hardware–software co-optimization for edge AI inference"
-      zh: "边缘端大模型加速芯片软硬件协同优化"
+      en: "Hardware–Software Co-Optimization of Edge Accelerator Chips for Large Models"
+      zh: "边缘端大模型加速芯片软硬件协同优化关键技术研发"
     role:
-      en: "Suzhou municipal R&D project · Research contributor"
-      zh: "苏州市关键核心技术“揭榜挂帅”攻关项目 · 项目成员"
+      en: "2024 Suzhou Key and Core Technology Program · Joint top contributor (team assessment)"
+      zh: "2024 年度苏州市关键核心技术“揭榜挂帅”攻关项目 · 团队评价为共同一等贡献者"
     period:
       en: "Since Sep 2024"
       zh: "自 2024 年 9 月参与"
     summary:
-      en: "Helped take an edge multimodal inference prototype from model compression and accelerator design through board-level validation."
-      zh: "参与边缘端多模态推理原型研发，工作涵盖模型压缩、加速器模块设计与板级验证。"
+      en: "Contributed from the project’s early stages through board-level validation of the multimodal inference prototype. The team met the proposal’s R&D objectives in November 2026."
+      zh: "自启动阶段参与研发，参与推动多模态推理原型完成板级验证。团队于 2026 年 11 月达到申报书所列研发目标。"
     link:
       label: {en: "Municipal project notice", zh: "苏州市科技局项目公示"}
       url: "https://kjj.suzhou.gov.cn/szkj/tzgg/202410/ee4a1905f2df436398d3fbd95cc2789e.shtml"
   - title:
-      en: "Cross-die memory and 3D architectures"
-      zh: "跨裸片存储与三维体系结构"
+      en: "High-Speed Acquisition and Real-Time FPGA Processing for Industrial OCT"
+      zh: "面向工业OCT的高速采集与FPGA实时处理"
     role:
-      en: "Architecture research"
-      zh: "体系结构研究"
-    period:
-      en: "Ongoing"
-      zh: "进行中"
+      en: "Student project lead · Industry collaboration"
+      zh: "学生负责人 · 校企联合研发"
+    partner: {en: "Suzhou Xinling Photonics", zh: "苏州芯灵光子科技有限公司"}
+    period: {en: "Ongoing", zh: "在研"}
     summary:
-      en: "Explore how cross-die and vertically integrated memory affect processor data access and memory hierarchy design."
-      zh: "研究跨裸片存储和垂直集成存储对处理器访存与存储层次设计的影响。"
+      en: "Lead student work on high-speed acquisition and real-time processing for an industrial optical coherence tomography system."
+      zh: "负责面向工业光学相干断层成像系统的高速数据采集与实时处理研究。"
+  - title:
+      en: "Cross-Die Cache Architecture for RISC-V and 2D SRAM"
+      zh: "RISC-V与2D SRAM跨Die缓存架构研究"
+    role:
+      en: "Core contributor · Joint research with Xinran Wang’s group"
+      zh: "核心贡献者 · 与王欣然课题组联合研究"
+    period: {en: "Ongoing", zh: "在研"}
+    summary:
+      en: "Study cache organization and memory access across dies in RISC-V systems that integrate 2D SRAM."
+      zh: "研究集成二维材料 SRAM 的 RISC-V 系统中跨裸片缓存组织与访存。"
+  - title:
+      en: "3D-Stacked Architecture Based on 2T0C Devices"
+      zh: "基于2T0C器件的三维堆叠架构研究"
+    role:
+      en: "Core contributor · Joint research with Xinran Wang’s group"
+      zh: "核心贡献者 · 与王欣然课题组联合研究"
+    period: {en: "Ongoing", zh: "在研"}
+    summary:
+      en: "Investigate how 2T0C memory devices can be integrated into a 3D stack and organized alongside compute."
+      zh: "研究 2T0C 存储器件在三维堆叠中的集成方式及其与计算单元的组织。"
+  - title:
+      en: "Near-Eye Computing System for Smart Glasses via 3D Heterogeneous Integration of 2D Materials and CMOS"
+      zh: "基于二维材料–CMOS 三维异质集成的智能眼镜近显计算系统"
+    role:
+      en: "Research contributor · Joint research with Xinran Wang’s group"
+      zh: "参与联合研究 · 与王欣然课题组合作"
+    partner: {en: "Suzhou Zhubite Intelligent Technology Co., Ltd.", zh: "苏州朱庇特智能科技有限公司"}
+    period: {en: "Ongoing", zh: "在研"}
+    summary:
+      en: "Explore low-power always-on sensing and real-time hazard alerts in smart glasses."
+      zh: "面向智能眼镜探索低功耗常开感知和实时风险提示。"
+  - title:
+      en: "Many-Core Networks-on-Chip for AI"
+      zh: "面向AI的众核片上网络（NoC）"
+    role:
+      en: "Research contributor · Industry technical discussions"
+      zh: "参与研究与企业技术对接"
+    partner: {en: "Huawei", zh: "华为"}
+    period: {en: "In discussion", zh: "技术对接中"}
+    summary:
+      en: "Explore on-chip communication architectures for many-core AI processors."
+      zh: "调研面向众核 AI 处理器的片上互连架构。"
+  - title:
+      en: "Embodied AI and Vision–Language–Action Research"
+      zh: "具身智能与视觉–语言–动作模型研究"
+    role: {en: "Research contributor", zh: "参与研究"}
+    period: {en: "Ongoing", zh: "在研"}
+    summary:
+      en: "Study compression and efficient edge deployment of vision–language–action models for embodied systems."
+      zh: "研究具身智能系统中视觉–语言–动作模型的压缩与高效端侧部署。"
+  - title:
+      en: "Reconfigurable Intelligent Processing Chip Design and Testbed for the Low-Altitude Economy"
+      zh: "可重构智能处理芯片设计与低空经济试验平台"
+    role: {en: "Project contributor", zh: "项目成员"}
+    partner: {en: "Intel", zh: "英特尔"}
+    period: {en: "Completed", zh: "已结项"}
+    summary:
+      en: "Contributed to an industry collaboration on reconfigurable intelligent processing chips and a testbed for low-altitude applications."
+      zh: "参与面向低空应用的可重构智能处理芯片与试验平台研发。"
+  - title:
+      en: "Hierarchical VLA Chip and System for Flexible Assembly"
+      zh: "行芯智控——面向柔性装配的大小脑协同VLA芯片与系统"
+    role:
+      en: "Ranked among the top three students on the team"
+      zh: "学生团队成员 · 队内学生排名前三"
+    period: {en: "2026 · National round", zh: "2026 年 · 国赛入围"}
+    summary:
+      en: "The project advanced to the national round of the 2026 China International College Students’ Innovation Competition."
+      zh: "项目入围中国国际大学生创新大赛（2026）国赛。"
+  - title:
+      en: "ReAct: Reconfigurable Architecture for High-Throughput BF16 Activation Functions"
+      zh: "ReAct：面向 BFloat16 格式下激活函数高吞吐率推理的可重构架构设计"
+    role: {en: "Architecture design and testing · FPGA design competition", zh: "架构设计与测试 · FPGA 创新设计竞赛"}
+    period: {en: "Started Oct 2025", zh: "2025 年 10 月起参与"}
+    summary:
+      en: "Worked on a reconfigurable FPGA prototype for evaluating activation functions in BF16."
+      zh: "参与面向 BF16 激活函数计算的可重构 FPGA 原型设计与测试。"
 
 education:
   - title: {en: "Nanjing University", zh: "南京大学"}
@@ -127,22 +261,22 @@ education:
 
 undergraduate:
   - title:
-      en: "Model merging for Chinese large language models"
+      en: "Analysis of Model Merging for Chinese Large Language Models"
       zh: "国产大模型合并算法分析"
     detail:
       en: "Undergraduate thesis, Sun Yat-sen University. Recognized as an Excellent Graduation Project."
       zh: "中山大学本科毕业设计，获评优秀毕业设计。"
     period: {en: "2025", zh: "2025 年"}
   - title:
-      en: "Hardware acceleration for robotic depth estimation"
-      zh: "面向机器人视觉的深度估计加速器设计"
+      en: "Hardware Processor Design for Depth Estimation in Robotic Vision Systems"
+      zh: "面向机器人视觉系统的深度估计硬件处理器设计"
     detail:
-      en: "Project contributor, Undergraduate Innovation and Training Program."
-      zh: "大学生创新训练项目，核心成员。"
+      en: "Core contributor, Undergraduate Innovation and Training Program. The related competition prototype, LAV, was a LoongArch-based accelerator for real-time vision tasks."
+      zh: "大学生创新训练项目核心成员。相关竞赛成果为《LAV：基于 LoongArch 架构的实时图像任务处理网络加速器》。"
     period: {en: "2024", zh: "2024 年"}
   - title:
-      en: "Delta–sigma modulator design for MEMS accelerometers"
-      zh: "面向 MEMS 加速度计的 Delta–Sigma 调制器设计"
+      en: "Low-Power, High-Resolution Delta–Sigma Modulator for MEMS Capacitive Accelerometers"
+      zh: "面向MEMS电容式加速度计的低功耗高分辨率Delta-Sigma型调制器"
     detail:
       en: "Project lead, Undergraduate Innovation and Training Program. Designed and simulated a high-resolution analog modulator."
       zh: "大学生创新训练项目，项目负责人。完成高分辨率模拟调制器设计与仿真。"
